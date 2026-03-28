@@ -1,0 +1,10 @@
+[
+  {
+    "Field": "role",
+    "Type": "enum('user','advocate')",
+    "Null": "NO",
+    "Key": "",
+    "Default": "user",
+    "Extra": ""
+  }
+]

@@ -1,0 +1,9 @@
+Testing Login...
+Login: {
+  success: false,
+  error: 'Wrong password',
+  hash_preview: '$2b$12$nDZb6/z1iGUPt'
+}
+
+Testing Register...
+Register: { success: false, message: 'Access denied. No token provided.' }

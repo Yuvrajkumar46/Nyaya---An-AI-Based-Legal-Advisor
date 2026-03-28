@@ -1,0 +1,47 @@
+[dotenv@17.3.1] injecting env (17) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Admin user exists. Updating password...
+Error setting up admin: Error
+    at Query.run (E:\legal assitant\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at E:\legal assitant\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async setupAdmin (E:\legal assitant\backend\setup_admin.js:22:7) {
+  name: 'SequelizeDatabaseError',
+  parent: Error: Data truncated for column 'role' at row 1
+      at Packet.asError (E:\legal assitant\backend\node_modules\mysql2\lib\packets\packet.js:756:17)
+      at Query.execute (E:\legal assitant\backend\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\legal assitant\backend\node_modules\mysql2\lib\base\connection.js:508:34)
+      at PacketParser.onPacket (E:\legal assitant\backend\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (E:\legal assitant\backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\legal assitant\backend\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5) {
+    code: 'WARN_DATA_TRUNCATED',
+    errno: 1265,
+    sqlState: '01000',
+    sqlMessage: "Data truncated for column 'role' at row 1",
+    sql: `UPDATE users SET password_hash = '$2b$12$C76v2rPHX2A5ilCbSSC9ruL8FcbIPIgbMsH6oo1Yl/OOVHIgYNAym', role = "ADMIN", is_active = 1 WHERE username = 'nyaya_admin'`,
+    parameters: undefined
+  },
+  original: Error: Data truncated for column 'role' at row 1
+      at Packet.asError (E:\legal assitant\backend\node_modules\mysql2\lib\packets\packet.js:756:17)
+      at Query.execute (E:\legal assitant\backend\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (E:\legal assitant\backend\node_modules\mysql2\lib\base\connection.js:508:34)
+      at PacketParser.onPacket (E:\legal assitant\backend\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (E:\legal assitant\backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (E:\legal assitant\backend\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5) {
+    code: 'WARN_DATA_TRUNCATED',
+    errno: 1265,
+    sqlState: '01000',
+    sqlMessage: "Data truncated for column 'role' at row 1",
+    sql: `UPDATE users SET password_hash = '$2b$12$C76v2rPHX2A5ilCbSSC9ruL8FcbIPIgbMsH6oo1Yl/OOVHIgYNAym', role = "ADMIN", is_active = 1 WHERE username = 'nyaya_admin'`,
+    parameters: undefined
+  },
+  sql: `UPDATE users SET password_hash = '$2b$12$C76v2rPHX2A5ilCbSSC9ruL8FcbIPIgbMsH6oo1Yl/OOVHIgYNAym', role = "ADMIN", is_active = 1 WHERE username = 'nyaya_admin'`,
+  parameters: {}
+}

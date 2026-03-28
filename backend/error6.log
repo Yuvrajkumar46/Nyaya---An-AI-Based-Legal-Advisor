@@ -1,0 +1,34 @@
+[dotenv@17.3.1] injecting env (17) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1948:16)
+    at listenInCluster (node:net:2005:12)
+    at Server.listen (node:net:2110:7)
+    at Object.<anonymous> (E:\legal assitant\backend\server.js:106:8)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+    at Module._load (node:internal/modules/cjs/loader:1335:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+Emitted 'error' event at:
+    at $e9ffe6de55430dbc$export$f47674b57e51ee3b.<anonymous> (E:\legal assitant\backend\node_modules\peer\dist\index.cjs:561:13)
+    at $e9ffe6de55430dbc$export$f47674b57e51ee3b.emit (node:events:508:28)
+    at $e9ffe6de55430dbc$export$f47674b57e51ee3b._onSocketError (E:\legal assitant\backend\node_modules\peer\dist\index.cjs:319:14)
+    at WebSocketServer.<anonymous> (E:\legal assitant\backend\node_modules\peer\dist\index.cjs:276:18)
+    at WebSocketServer.emit (node:events:508:28)
+    at Server.emit (node:events:508:28)
+    at emitErrorNT (node:net:1984:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v24.14.0

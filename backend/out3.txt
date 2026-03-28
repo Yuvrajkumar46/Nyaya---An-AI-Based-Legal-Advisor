@@ -1,0 +1,2 @@
+[dotenv@17.3.1] injecting env (17) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+Successfully updated password to 'password123' for 'yuvraj'.

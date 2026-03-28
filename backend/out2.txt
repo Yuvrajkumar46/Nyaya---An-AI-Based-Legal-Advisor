@@ -1,0 +1,7 @@
+[dotenv@17.3.1] injecting env (17) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Testing dummy password AGAINST: yuvraj
+Password "password123" is valid: false
+Password "admin123" is valid: false
+Password "test" is valid: false
+Password "yuvraj" is valid: false
+Password "yuvraj123" is valid: false

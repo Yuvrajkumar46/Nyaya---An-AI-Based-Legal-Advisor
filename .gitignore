@@ -1,0 +1,11 @@
+notepad .gitignore
+```
+
+Paste this inside:
+```
+.env
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.env.local

@@ -1,0 +1,134 @@
+[dotenv@17.3.1] injecting env (17) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Users in DB: [
+  {
+    user_id: '06172c1a-1ad2-11f1-8e3c-00ffeedf191b',
+    username: 'nyaya_admin',
+    is_active: 1,
+    role: '',
+    password_hash: '$2b$10$keMUTc.OiFTK6/VS4K.1/uCHiIUuXn3DkIZS2L1Ewuy7D6gYT708C'
+  },
+  {
+    user_id: null,
+    username: 'yuvraj',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$nDZb6/z1iGUPteOmSs2PpOoz6vuDLfK3SdCXSp6XvJcE18wvXMpS.'
+  },
+  {
+    user_id: '1cfd499e-6b48-4ad7-b299-3b866d97135b',
+    username: 'advocate1',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$fgrbd0kfyIQj2IzYuJZlTuLAsB7wCmdnYHh4hgBAi/hDPnRUgDUqW'
+  },
+  {
+    user_id: '6614fc24-5042-4bc4-8dd2-1ad6769113ed',
+    username: 'advoc_6614fc24',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$Jt7MVOfYhuQJcCZU357Qg.ERh6j1uaqDvDtag8kcW2EwHf83kFpdy'
+  },
+  {
+    user_id: '02f290b4-08b2-4c46-aada-3721b863afd9',
+    username: 'advoc_02f290b4',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$mEJTrwJIWYVIO.U2x7Dqw.dkUq.bcCHIChbaQj4pGR4qdlp3acdIy'
+  },
+  {
+    user_id: '97461269-c57f-4193-91e8-3c3cb650169c',
+    username: 'advoc_97461269',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$gZxrPEdCa19PJSvnjNbXD.pdNLJEUfRtfV17VDVYqtHpYohuvagym'
+  },
+  {
+    user_id: '0f49e907-cbf8-4558-8aac-4afc94269457',
+    username: 'advoc_0f49e907',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$xZtk83FdvJwR0Wzc5KXtIunAqenHaOhN/rr6JaSpxCDhyIiOLuzpW'
+  },
+  {
+    user_id: 'ebaf821a-a9f4-47d1-b441-3bdd0cffbd6e',
+    username: 'advoc_ebaf821a',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$VLQ/TYlY1exdsmZn9/JoJONpsPS2EGj9k.YVtpT2E3TTF14Jnb4Ia'
+  },
+  {
+    user_id: 'e52f6e43-e45f-4daa-9c98-09dfbd9d4748',
+    username: 'advoc_e52f6e43',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$MpFPwXJXwGrR5EZGkU5WH.ZvfRGJepK0xdRnDSIHBJSwhYYjS3Ldm'
+  },
+  {
+    user_id: '819aabd2-0c2b-4b8c-ac12-87adf6c36de3',
+    username: 'advoc_819aabd2',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$3rmIVS4CwuuaxNfte8UqIuTCQLfkEEcX6Cg.cKc8yc7qJm/wuJsHS'
+  },
+  {
+    user_id: 'a6e7e08e-46ae-470a-a786-68e031b9b047',
+    username: 'advoc_a6e7e08e',
+    is_active: 1,
+    role: 'advocate',
+    password_hash: '$2b$12$Fka7p83zjEiIMSKkmM2FB.Wg7d0Vxm62S1Qy.cZp5XMmd2onopfga'
+  },
+  {
+    user_id: 'b6a03fad-362b-4123-b534-da59e78e6975',
+    username: 'testuser_b6a03fad',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$dg/aKZQUCis/Ofq2z6dkE.vWyoea1QVmxsDooLFSJI0CLN791cpGq'
+  },
+  {
+    user_id: null,
+    username: 'rahul_sharma',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$IPICNt/6SaLyK4JNMXtLDOUWmWz9PTkXv/CLLAChQVeaLGhC.KHvq'
+  },
+  {
+    user_id: null,
+    username: 'priya_patel',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$IPICNt/6SaLyK4JNMXtLDOUWmWz9PTkXv/CLLAChQVeaLGhC.KHvq'
+  },
+  {
+    user_id: null,
+    username: 'amit_kumar',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$IPICNt/6SaLyK4JNMXtLDOUWmWz9PTkXv/CLLAChQVeaLGhC.KHvq'
+  },
+  {
+    user_id: null,
+    username: 'sneha_reddy',
+    is_active: 0,
+    role: 'user',
+    password_hash: '$2b$12$IPICNt/6SaLyK4JNMXtLDOUWmWz9PTkXv/CLLAChQVeaLGhC.KHvq'
+  },
+  {
+    user_id: null,
+    username: 'vikram_singh',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$IPICNt/6SaLyK4JNMXtLDOUWmWz9PTkXv/CLLAChQVeaLGhC.KHvq'
+  },
+  {
+    user_id: null,
+    username: 'yuvraj_kumar',
+    is_active: 1,
+    role: 'user',
+    password_hash: '$2b$12$DWg1Gw1vPV.q5fCS15uTjufKyJ.0HL.bP/zEl1vb4ixaCqQTZzBja'
+  }
+]
+Testing dummy password against: nyaya_admin
+Password "password123" is valid: false
+Password "admin123" is valid: false
+Password "test" is valid: false
+Password "yuvraj" is valid: false
